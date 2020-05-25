@@ -4,8 +4,11 @@ while True: #Bir döngü oluşturur.
 	if int(sayı) < 0:  #Eğer sayı 0dan küçükse
 		print("\nNegatif sayı girmeyiniz!!") #Negatif sayı girmeyiniz!! yazdırır
 
-	elif   
-		print("\nTektir") #Tektir
+	elif int(sayı) % 2 == 0 #eğer sayı 2ye bölündüğünde kalan 0 ise
+		print("\nSayı çifttir") #Sayı çifttir
+  
+        else: #Değilse
+                print("\nSayı tektir.") #Sayı tektir
 		
 
 
