@@ -1,11 +1,13 @@
-print("\nBu program sayının tek mi çift mi olduğunu açıklar")
-while True:
-	sayı = input("\n\nSayıyı giriniz: ")
-	if int(sayı) % 2 == 0:
-		print("\nSayı çifttir")
+print("\nBu program sayının tek mi çift mi olduğunu açıklar") 
+while True: #Bir döngü oluşturur.
+	sayı = input("\n\nSayıyı giriniz: ") #Girmen için bir sayı ister.
+	if int(sayı) < 0:  #Eğer sayı 0dan küçükse
+		print("\nNegatif sayı girmeyiniz!!") #Negatif sayı girmeyiniz!! yazdırır
 
-	else:
-		print("\nTektir")
+	elif   
+		print("\nTektir") #Tektir
+		
+
 
 
 	
